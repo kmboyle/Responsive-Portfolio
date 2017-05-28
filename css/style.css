@@ -21,7 +21,7 @@ header {
 	font-family: 'Georgia', Times,
 	'Times New Roman', serif;
 	color: #B2A3AD;
-	width: 1020px;
+	width: 100%;
 	background-color: #ffffff;
 	margin-bottom:20px;
 	margin-top: 0;
@@ -72,13 +72,13 @@ div li {
 div.image1, div.image2, div.image3, div.image4,
 div.image5{
 	position:relative;
+
 }
 h2.absolute1{
 	position: absolute;
-	width:200px;
-	width:200px;
-	top:100px;
-	right: 316px;
+    width: 42.5%;
+    top: 100px;
+    right: 54.5%;
 	background-color:#4aaaa5;
 	color: white;
 	text-align: center;
@@ -86,9 +86,9 @@ h2.absolute1{
 }
 h2.absolute2{
 	position: absolute;
-	width:200px;
-	top:100px;
-	right: 88px;
+    width: 42.3%;
+    top: 100px;
+    right: 6.4%;
 	background-color:#4aaaa5;
 	color: white;
 	text-align: center;
@@ -149,11 +149,21 @@ h2, #port {
 	clear:both;
 	font-size: 24px;
 	color:#4aaaa5;
+	font-weight: bold;
+}
+h1{
+	font-weight: bold;
+	font-size: 24px;
 }
 
+h3{
+	color:#4aaaa5;
+	font-weight: bold;
+	font-size: 18px;
+}
 .main-bio, .contact, .portfolio{
 	float: left;
-	width:530px;
+	width:35%;
 	background-color: #ffffff;
 	padding: 10px;
 	margin: 5px 20px 20px 20px;
@@ -169,7 +179,7 @@ h2, #port {
 	margin: 5px 20px 20px 20px;
 	padding: 10px;
 	text-align: center;
-	width:190px;
+	width:25%;
 	box-sizing: border box;
 	}
 #git:hover, #linked:hover, #stack:hover{
@@ -179,18 +189,10 @@ h2, #port {
 }
 
 
-}
-}
-
-h3{
-	color:#4aaaa5;
-}
-
 #image {
 	float:left;
 	margin-right: 20px;
-	width: 200px;
-	height: 300px;
+	width: 35%;
 	border-radius: 25px;
 }
 footer{
@@ -247,19 +249,27 @@ input[type=submit]:hover{
 
 @media screen and (max-width: 980px) {
 	
-		header,.main-bio, .contact, .portfolio, .contact-info{
-		width: 100%;
+		.main-bio, .contact{
+		width: 50%;
 	}
+	.portfolio {
+		width: 50%;
+	}
+
 }
 
 @media screen and (max-width: 768px){
 	
-	header,.main-bio, .contact, .portfolio, 
+	.main-bio, .contact,
 	.contact-info{
 		
 		width: 100%;
+		padding:1%;
 	}
-	footer {
+	.portfolio {
+		width: 50%;
+	}
+	header, footer {
 		width:100%;
 	}	
 
@@ -279,15 +289,22 @@ input[type=submit]:hover{
 	margin:0;
 	text-align: center;
 }
-	
-	#image{
-		width:200px;
-		height: 300px;
-	}
 	.main-bio, .contact, .portfolio, 
 	.contact-info{
 		width: 100%;
+		padding:1%;
 	}
+	h1.absolute1{
+	position: absolute;
+    width: 54.5%;
+    top: 100px;
+    right: 41.5%;
+	}
+	h2.absolute2{
+	position: absolute;
+	 top: 275px;
+    right: 51.4%;
+}
 	footer {
 		width:100%;
 	}	
