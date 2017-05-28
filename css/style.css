@@ -5,7 +5,7 @@ body{
 	font-family: 'Arial', 'Helvetica Neue', 
 	Helvetica, sans-serif;
 	font-color:#777777;
-	width: 960px;
+	width: 100%;
 	background-image: url("../images/ep_naturalwhite.png");
 	height: 100%;
 	margin: 0;
@@ -27,7 +27,7 @@ header {
 	margin-top: 0;
 	padding-top: 0px;
 	padding-bottom: 20px;
-	overflow:hidden;
+	overflow:all;
 	height: 44px;
 	border-style: solid;
 	border-color: #cccccc;
@@ -35,7 +35,7 @@ header {
 	}
 #headname {
 	background-color: #4aaaa5;
-	width:200px;
+	width:25%;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 20px;
@@ -232,6 +232,7 @@ input[type=submit]:hover{
 .wrapper {
 	min-height: 100%;;
 	margin-bottom: -20px;
+	width:100%;
 }
 .footer,
 .push {
@@ -240,27 +241,44 @@ input[type=submit]:hover{
 
 
 
+
+
+
+
+@media screen and (max-width: 980px) {
+	
+		header,.main-bio, .contact, .portfolio, .contact-info{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	
+	header,.main-bio, .contact, .portfolio, 
+	.contact-info{
+		
+		width: 100%;
+	}
+	footer {
+		width:100%;
+	}	
+
+}
+
 @media screen and (max-width:640px){
 	
 	header {
-		width:55%;	
+		width:100%;	
 		height:50px;	
 		position:static;
 		
 	}
-	#headname {
-		text-align: center;
-		width:100%;
-		padding:0;
-		margin:0;
-		line-height: 2;
-		max-height:75%;
-		}
-	#sites{
-		text-align: center;
-		padding-top:0px;
-		line-height: 0;
-	}
+#sites, #headname{
+	width:100%;
+	height:50%;
+	margin:0;
+	text-align: center;
+}
 	
 	#image{
 		width:200px;
@@ -268,25 +286,6 @@ input[type=submit]:hover{
 	}
 	.main-bio, .contact, .portfolio, 
 	.contact-info{
-		width: 50%;
-	}
-	footer {
-		width:55%;
-	}	
-
-}
-
-
-@media screen and (max-width: 768px){
-	
-	header {
-		width:100%;		
-		
-	}
-
-	.main-bio, .contact, .portfolio, 
-	.contact-info{
-		
 		width: 100%;
 	}
 	footer {
@@ -294,11 +293,3 @@ input[type=submit]:hover{
 	}	
 
 }
-
-@media screen and (max-width: 980px) {
-	
-		.main-bio, .contact, .portfolio, .contact-info{
-		width: 100%;
-	}
-}
-
