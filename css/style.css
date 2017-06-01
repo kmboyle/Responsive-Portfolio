@@ -76,9 +76,9 @@ div.image5{
 }
 h2.absolute1{
 	position: absolute;
-    width: 42.5%;
-    top: 100px;
-    right: 54.5%;
+	width:200px;
+	top:100px;
+	right: 325px;
 	background-color:#4aaaa5;
 	color: white;
 	text-align: center;
@@ -86,9 +86,9 @@ h2.absolute1{
 }
 h2.absolute2{
 	position: absolute;
-    width: 42.3%;
+    width: 200px;
     top: 100px;
-    right: 6.4%;
+    right: 115px;
 	background-color:#4aaaa5;
 	color: white;
 	text-align: center;
@@ -98,7 +98,7 @@ h2.absolute3{
 	position: absolute;
 	width:200px;
 	top:275px;
-	right: 316px;
+	right: 325px;
 	background-color:#4aaaa5;
 	color: white;
 	text-align: center;
@@ -108,7 +108,7 @@ h2.absolute4{
 	position: absolute;
 	width:200px;
 	top:274px;
-	right: 88px;
+	right: 115px;
 	background-color:#4aaaa5;
 	color: white;
 	text-align: center;
@@ -119,7 +119,7 @@ h2.absolute5{
 	position: absolute;
 	width:200px;
 	top:445px;
-	right: 316px;
+	right: 325px;
 	background-color:#4aaaa5;
 	color: white;
 	text-align: center;
@@ -163,9 +163,9 @@ h3{
 }
 .main-bio, .contact, .portfolio{
 	float: left;
-	width:35%;
+	width:530px;
 	background-color: #ffffff;
-	padding: 10px;
+	padding: 20px;
 	margin: 5px 20px 20px 20px;
 	box-sizing: border box;
 }
@@ -179,7 +179,7 @@ h3{
 	margin: 5px 20px 20px 20px;
 	padding: 10px;
 	text-align: center;
-	width:25%;
+	width:190px;
 	box-sizing: border box;
 	}
 #git:hover, #linked:hover, #stack:hover{
@@ -253,21 +253,56 @@ input[type=submit]:hover{
 		width: 50%;
 	}
 	.portfolio {
-		width: 50%;
+		width: 415px;
+	}
+		h2.absolute1{
+	position: absolute;
+	width:200px;
+	top:100px;
+	right: 210px;
+
+	}
+	h2.absolute2{
+	position: absolute;
+    width: 200px;
+    top: 270px;
+    right: 210px;
+	}
+
+	h2.absolute3{
+	position: absolute;
+	width:200px;
+	top:444.5px;
+	right: 210px;
+	}
+	h2.absolute4 {
+		position: absolute;
+		width:200px;
+		top:612px;
+		right: 210px;
+	}
+	h2.absolute5{
+		position: absolute;
+		width:200px;
+		top:787px;
+		right: 210px;
+
 	}
 
 }
 
 @media screen and (max-width: 768px){
 	
-	.main-bio, .contact,
-	.contact-info{
+	.main-bio, .contact{
 		
 		width: 100%;
 		padding:1%;
 	}
 	.portfolio {
-		width: 50%;
+		width: 430px;
+	}
+	.contact-info {
+		width: 450px;
 	}
 	header, footer {
 		width:100%;
@@ -275,6 +310,39 @@ input[type=submit]:hover{
 	#image {
 		width: 200px;
 		height: 300px;
+	}
+		h2.absolute1{
+	position: absolute;
+	width:200px;
+	top:100px;
+	right: 225px;
+
+	}
+	h2.absolute2{
+	position: absolute;
+    width: 200px;
+    top: 100px;
+    right: 15px;
+	}
+
+	h2.absolute3{
+	position: absolute;
+	width:200px;
+	top:272.5px;
+	right: 225px;
+	}
+	h2.absolute4 {
+		position: absolute;
+		width:200px;
+		top:273px;
+		right: 15px;
+	}
+	h2.absolute5{
+		position: absolute;
+		width:200px;
+		top:446px;
+		right: 225px;
+
 	}
 
 }
@@ -297,21 +365,48 @@ input[type=submit]:hover{
 	margin:0;
 	text-align: center;
 }
-	.main-bio, .contact, .portfolio, 
+	.main-bio, .contact, 
 	.contact-info{
-		width: 100%;
+		width: 350px;
 		padding:1%;
 	}
-	h1.absolute1{
+	.portfolio {
+		width: 320px;
+	}
+	h2.absolute1{
 	position: absolute;
-    width: 54.5%;
-    top: 100px;
-    right: 41.5%;
+	width:200px;
+	top:100px;
+	right: 115px;
+
 	}
 	h2.absolute2{
 	position: absolute;
-	 top: 275px;
-    right: 51.4%;
+    width: 200px;
+    top: 270px;
+    right: 115px;
+	}
+
+	h2.absolute3{
+	position: absolute;
+	width:200px;
+	top:444.5px;
+	right: 115px;
+	}
+	h2.absolute4 {
+		position: absolute;
+		width:200px;
+		top:612px;
+		right: 115px;
+	}
+	h2.absolute5{
+		position: absolute;
+		width:200px;
+		top:787px;
+		right: 115px;
+
+	}
+
 }
 li a {
 	padding: 5px;
